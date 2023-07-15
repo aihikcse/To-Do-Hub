@@ -1,0 +1,94 @@
+
+*{
+	font-family: 'Russo One';
+}
+body{
+	font-family: 'Russo One';
+	background-image: linear-gradient(100deg, #575656, #062e3f);
+    color: #585858;
+}
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #ffffffa3;
+	box-shadow: 0px 0px 10px #0000004d,2px 10px 10px #a56565;
+}
+
+h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration-line: underline;
+	text-shadow: 2px 2px #ff0000;
+}
+
+form {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	
+	font-size: 16px;
+}
+
+button[type="submit"] {
+	padding: 10px;
+	background-color: #008CBA;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.todo-list {
+	list-style: none;
+	padding: 0;
+}
+
+.todo-list li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.todo-list li .todo-text {
+	flex: 1;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.button-container {
+	display: flex;
+}
+
+.edit-button, .delete-button {
+	padding: 5px 10px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.edit-button {
+	background-color: #F9A602;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.delete-button {
+	background-color: #ff0000;
+	color: #fff;
+}
+
